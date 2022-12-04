@@ -36,7 +36,6 @@ internal class Link_ls
         {
             Node tempNode = Head;
             for (int i = 0; i < position; ++i)
-                // переходим к следующему узлу списка
                 tempNode = tempNode.Next;
             return tempNode.Value;
         }
